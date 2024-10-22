@@ -18,8 +18,23 @@ function slocal(){
     $st_var ++;
     echo $st_var;
 }
-echo slocal() ."\n";
-echo slocal();
+// echo slocal() ."\n";
+// echo slocal();
+// variable concatination
+$fname = "yitayew";
+$lname = " solomon";
+
+// echo "your name is:\n".$fname." ". $lname;
+
+// variable of variables
+$var1 = "My_Name";
+$$var1 = "yitayew";
+// echo $My_Name;
+
+print "hello world1 \n";
+$success = print "hello world2 \n";
+echo $success;
+
 ?>
 
 
