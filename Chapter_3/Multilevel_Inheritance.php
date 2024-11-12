@@ -17,7 +17,7 @@ class ElectricCar extends Car {
     }
 }
 
-$myElectricCar = new ElectricCar();
+$myElectricCar = new ElectricCar('','');
 echo $myElectricCar->type(); // Output: Vehicle
 echo $myElectricCar->model(); // Output: Car Model
 echo $myElectricCar->fuel(); // Output: Electric

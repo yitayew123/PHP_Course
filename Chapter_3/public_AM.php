@@ -14,7 +14,7 @@ class Car {
 }
 
 // Creating an object and accessing public properties and methods
-$car = new Car();
+$car = new Car('Honda','Civic');
 $car->setDetails("Honda", "Civic");
 echo $car->getDetails();  // Output: This car is a Honda Civic
 ?>

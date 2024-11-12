@@ -11,7 +11,7 @@ class Circle extends Shape {
     }
 }
 
-$circle = new Circle();
+$circle = new Circle('');
 echo $circle->area(); // Output: Calculating area of Circle
 ?>
 
