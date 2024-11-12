@@ -34,7 +34,7 @@ $$var1 = "yitayew";
 print "hello world1 \n";
 $success = print "hello world2 \n";
 echo $success;
-
+echo "well come"
 ?>
 
 
